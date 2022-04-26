@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contatos - Barbearia Alura</title>
+  </head>
+  <body>
+    <header>
+      <div class="caixa">
+        <h1><img src="./images/logo.png" alt="logo" /></h1>
+
+        <nav>
+          <ul>
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="produtos.html"> Produtos </a></li>
+            <li><a href="contatos.html"> Contatos </a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <form action="">
+        <label for="nome-sobrenome">Nome e sobrenome</label>
+        <input type="text" id="nome-sobrenome" />
+
+        <label for="email">Email</label>
+        <input type="text" id="email" />contato
+
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone" />
+
+        <label for="mensagem">Mensagem</label>
+        <textarea name="" id="mensagem" cols="70" rows="10"></textarea>
+
+        <div>
+          <p>Como prefere o nosso contato?</p>
+          <label for="radio-email">Email</label>
+          <input type="radio" name="contato" id="radio-email" value="email" />
+
+          <label for="radio-telefone">Telefone</label>
+          <input
+            type="radio"
+            name="contato"
+            id="radio-telefone"
+            value="telefone"
+          />
+
+          <label for="radio-whatsapp">Whatsapp</label>
+          <input
+            type="radio"
+            name="contato"
+            id="radio-whatsapp"
+            value="whatsapp"
+          />
+
+          <label for="">
+            <input type="checkbox" name="" id="">
+            Gostaria de receber nossas novidades por email?
+          </label>
+
+          <input type="submit" value="Enviar Formulário" />
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <img src="./images/logo-branco.png" alt="logo-branco" />
+      <p class="copyright">&copy; Copyright Barbear Alura - 2022</p>
+    </footer>
+  </body>
+</html>
